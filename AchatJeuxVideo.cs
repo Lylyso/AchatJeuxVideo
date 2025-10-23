@@ -8,7 +8,7 @@
  *      
  *      But:            calculer le prix d'achat d'un jeu vidéo en fonction de la plateforme et du genre.
  * 
- *      Info:           Phase A
+ *      Info:           Phase A.
  * 
  */
 using System;
