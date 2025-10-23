@@ -91,11 +91,5 @@
   <ItemGroup>
     <None Include="Resources\consoles.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Transactions\Transactions.csproj">
-      <Project>{152a0396-724d-4f00-8b8b-32968ff8e89b}</Project>
-      <Name>Transactions</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
