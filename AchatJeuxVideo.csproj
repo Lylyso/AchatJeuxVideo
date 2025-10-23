@@ -55,6 +55,7 @@
     <Compile Include="AchatJeuxVideoGeneraleClasse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transactions.cs" />
     <EmbeddedResource Include="AchatJeuxVideo.resx">
       <DependentUpon>AchatJeuxVideo.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,12 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\consoles.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Transactions\Transactions.csproj">
-      <Project>{152a0396-724d-4f00-8b8b-32968ff8e89b}</Project>
-      <Name>Transactions</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
