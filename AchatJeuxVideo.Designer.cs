@@ -236,6 +236,7 @@
             this.genreComboBox.Name = "genreComboBox";
             this.genreComboBox.Size = new System.Drawing.Size(311, 28);
             this.genreComboBox.TabIndex = 27;
+            this.genreComboBox.SelectedIndexChanged += new System.EventHandler(this.PlatformeComboBox_SelectedIndexChanged);
             // 
             // platformeComboBox
             // 
@@ -247,6 +248,7 @@
             this.platformeComboBox.Name = "platformeComboBox";
             this.platformeComboBox.Size = new System.Drawing.Size(311, 28);
             this.platformeComboBox.TabIndex = 26;
+            this.platformeComboBox.SelectedIndexChanged += new System.EventHandler(this.PlatformeComboBox_SelectedIndexChanged);
             // 
             // dateAchatDateTimePicker
             // 
@@ -401,6 +403,7 @@
             this.quitterButton.TabIndex = 31;
             this.quitterButton.Text = "&Quitter";
             this.quitterButton.UseVisualStyleBackColor = true;
+            this.quitterButton.Click += new System.EventHandler(this.quitterButton_Click);
             // 
             // enregistrerButton
             // 
@@ -426,6 +429,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AchatJeuxVideo";
             this.Text = "Achat de Jeu Video";
+            this.Load += new System.EventHandler(this.AchatJeuxVideo_Load);
             this.clientGroupBox.ResumeLayout(false);
             this.clientGroupBox.PerformLayout();
             this.transactionGroupBox.ResumeLayout(false);
