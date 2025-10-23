@@ -8,6 +8,7 @@ using ce = AchatJeuxVideo.AchatJeuxVideoGeneraleClasse.CodesErreurs;
 
 namespace AchatJeuxVideo
 {
+    // Classe générale pour la gestion des achats de jeux vidéo
     internal class AchatJeuxVideoGeneraleClasse
     {
         #region Enumeration
