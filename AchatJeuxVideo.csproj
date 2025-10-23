@@ -52,6 +52,7 @@
     <Compile Include="AchatJeuxVideo.Designer.cs">
       <DependentUpon>AchatJeuxVideo.cs</DependentUpon>
     </Compile>
+    <Compile Include="AchatJeuxVideoGeneraleClasse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AchatJeuxVideo.resx">
