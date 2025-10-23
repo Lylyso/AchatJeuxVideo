@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AchatJeuxVideo", "AchatJeuxVideo.csproj", "{AD351B0C-F20E-4251-BB0E-F9BE3BBE41D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transactions", "..\Transactions\Transactions.csproj", "{152A0396-724D-4F00-8B8B-32968FF8E89B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AD351B0C-F20E-4251-BB0E-F9BE3BBE41D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD351B0C-F20E-4251-BB0E-F9BE3BBE41D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD351B0C-F20E-4251-BB0E-F9BE3BBE41D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152A0396-724D-4F00-8B8B-32968FF8E89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152A0396-724D-4F00-8B8B-32968FF8E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152A0396-724D-4F00-8B8B-32968FF8E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152A0396-724D-4F00-8B8B-32968FF8E89B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
