@@ -403,7 +403,7 @@
             this.quitterButton.TabIndex = 31;
             this.quitterButton.Text = "&Quitter";
             this.quitterButton.UseVisualStyleBackColor = true;
-            this.quitterButton.Click += new System.EventHandler(this.quitterButton_Click);
+            this.quitterButton.Click += new System.EventHandler(this.QuitterButton_Click);
             // 
             // enregistrerButton
             // 

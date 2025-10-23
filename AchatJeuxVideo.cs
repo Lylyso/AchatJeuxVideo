@@ -90,7 +90,7 @@ namespace AchatJeuxVideo
         #endregion
 
         #region Quitter
-        private void quitterButton_Click(object sender, EventArgs e)
+        private void QuitterButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
