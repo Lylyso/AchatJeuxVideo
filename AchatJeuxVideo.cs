@@ -17,11 +17,26 @@ namespace AchatJeuxVideo
             InitializeComponent();
         }
 
-        private void adresseLabel_Click(object sender, EventArgs e)
-        {
+        #region Declaration
 
-        }
+        #endregion
+
+        #region Constructeurs
+
+        #endregion
+
+        #region Initialisation
+
+        #endregion
+
+        #region Obtenir le prix
+
+        #endregion
+
+        #region Quitter
 
         
+        #endregion
+
     }
 }
