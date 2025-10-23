@@ -1,0 +1,6 @@
+C:\Users\fiand\Documents\COURS 2025\1er Session\PROG1236\DEVOIR_3\Transactions\bin\Debug\Transactions.dll
+C:\Users\fiand\Documents\COURS 2025\1er Session\PROG1236\DEVOIR_3\Transactions\bin\Debug\Transactions.pdb
+C:\Users\fiand\Documents\COURS 2025\1er Session\PROG1236\DEVOIR_3\Transactions\obj\Debug\Transactions.csproj.AssemblyReference.cache
+C:\Users\fiand\Documents\COURS 2025\1er Session\PROG1236\DEVOIR_3\Transactions\obj\Debug\Transactions.csproj.CoreCompileInputs.cache
+C:\Users\fiand\Documents\COURS 2025\1er Session\PROG1236\DEVOIR_3\Transactions\obj\Debug\Transactions.dll
+C:\Users\fiand\Documents\COURS 2025\1er Session\PROG1236\DEVOIR_3\Transactions\obj\Debug\Transactions.pdb
