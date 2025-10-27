@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AchatJeuxVideo", "AchatJeux
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transactions", "..\Transactions\Transactions.csproj", "{152A0396-724D-4F00-8B8B-32968FF8E89B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types", "..\Types\Types.csproj", "{7C760CA0-D065-43AC-9CDC-BB39A45A816E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{152A0396-724D-4F00-8B8B-32968FF8E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152A0396-724D-4F00-8B8B-32968FF8E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152A0396-724D-4F00-8B8B-32968FF8E89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C760CA0-D065-43AC-9CDC-BB39A45A816E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C760CA0-D065-43AC-9CDC-BB39A45A816E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C760CA0-D065-43AC-9CDC-BB39A45A816E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C760CA0-D065-43AC-9CDC-BB39A45A816E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

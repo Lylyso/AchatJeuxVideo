@@ -25,6 +25,8 @@ using TransactionsNS;
 using g = AchatJeuxVideo.AchatJeuxVideoGeneraleClasse;
 using ce = AchatJeuxVideo.AchatJeuxVideoGeneraleClasse.CodesErreurs;
 
+using TypesNS;
+
 namespace AchatJeuxVideo
 {
     public partial class AchatJeuxVideo : Form
@@ -33,6 +35,7 @@ namespace AchatJeuxVideo
         #region Declaration
 
         Transactions oTrans;
+        Types oTypes; // NEW: use TypesNS.Types
 
         #endregion
 
@@ -57,11 +60,12 @@ namespace AchatJeuxVideo
                 g.InitMessagesErreurs();
 
                 oTrans = new Transactions();
+                oTypes = new Types(); // NEW: initialize Types
 
-                platformeComboBox.Items.AddRange(oTrans.GetPlatforme());
+                platformeComboBox.Items.AddRange(oTypes.GetTypes(Types.CodeTypes.Platforme));
                 platformeComboBox.SelectedIndex = 0;
 
-                genreComboBox.Items.AddRange(oTrans.GetGenre());
+                genreComboBox.Items.AddRange(oTypes.GetTypes(Types.CodeTypes.Genre));
                 genreComboBox.SelectedIndex = 0;
             }
             catch (Exception)
@@ -78,8 +82,8 @@ namespace AchatJeuxVideo
         {
             try
             {
-                if (platformeComboBox.SelectedIndex != -1 && genreComboBox.SelectedIndex != -1)              
-                    prixLabel.Text = oTrans.GetPrix(platformeComboBox.SelectedIndex, genreComboBox.SelectedIndex).ToString("C2");            
+                if (platformeComboBox.SelectedIndex != -1 && genreComboBox.SelectedIndex != -1)
+                    prixLabel.Text = oTrans.GetPrix(platformeComboBox.SelectedIndex, genreComboBox.SelectedIndex).ToString("C2");
             }
             catch (Exception)
             {
@@ -96,7 +100,5 @@ namespace AchatJeuxVideo
         }
 
         #endregion
-
-
     }
 }

@@ -96,6 +96,10 @@
       <Project>{152a0396-724d-4f00-8b8b-32968ff8e89b}</Project>
       <Name>Transactions</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Types\Types.csproj">
+      <Project>{7c760ca0-d065-43ac-9cdc-bb39a45a816e}</Project>
+      <Name>Types</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
