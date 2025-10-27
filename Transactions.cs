@@ -79,18 +79,19 @@ namespace TransactionsNS
         /// <exception cref="ArgumentOutOfRangeException">
         /// L'indice plateforme ou genre est hors limites.
         /// </exception>
+        /// 
+
+
         public decimal GetPrix(int platforme, int genre)
         {
-            if (platforme < tPrix.GetLowerBound(0) || platforme > tPrix.GetUpperBound(0))
-                throw new ArgumentOutOfRangeException(nameof(platforme),
-                    "Indice plateforme hors limites du tableau!");
-
-            if (genre < tPrix.GetLowerBound(1) || genre > tPrix.GetUpperBound(1))
-                throw new ArgumentOutOfRangeException(nameof(genre),
-                    "Indice genre hors limites du tableau!");
-
+            if (platforme < 0 || platforme >= tPlatforme.Length)
+                throw new ArgumentOutOfRangeException(nameof(platforme), "Indice de plateforme hors limites!");
+            if (genre < 0 || genre >= tGenre.Length)
+                throw new ArgumentOutOfRangeException(nameof(genre), "Indice de genre hors limites!");
             return tPrix[platforme, genre];
         }
+
+
 
         /// <summary>
         /// Retourne le prix selon le nom de la plateforme et du genre.
@@ -101,18 +102,17 @@ namespace TransactionsNS
         /// <exception cref="ArgumentException">
         /// Plateforme inconnue ou genre inconnu.
         /// </exception>
+        /// 
+
         public decimal GetPrix(string platforme, string genre)
         {
-            int idxPlat = Array.IndexOf(tPlatforme, platforme);
-            int idxGenre = Array.IndexOf(tGenre, genre);
-
-            if (idxPlat == -1)
-                throw new ArgumentException("Plateforme inconnue ou invalide!", nameof(platforme));
-
-            if (idxGenre == -1)
-                throw new ArgumentException("Genre inconnu ou invalide!", nameof(genre));
-
-            return GetPrix(idxPlat, idxGenre);
+            int posPlatforme = Array.IndexOf(tPlatforme, platforme);
+            int posGenre = Array.IndexOf(tGenre, genre);
+            if (posPlatforme < 0)
+                throw new ArgumentException("Plateforme inconnue!", nameof(platforme));
+            if (posGenre < 0)
+                throw new ArgumentException("Genre inconnu!", nameof(genre));
+            return tPrix[posPlatforme, posGenre];
         }
 
         #endregion
